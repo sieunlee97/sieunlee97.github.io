@@ -14,9 +14,9 @@ category: update
 
 나의 경우는 2번 방법을 사용했다.
 
-### Jekyll Themes 알아보고 선택하기 (http://jekyllthemes.org/)
+### Jekyll Themes 알아보고 선택하기 (<a href="http://jekyllthemes.org/">http://jekyllthemes.org/</a>)
 
-내가 사용한 테마는 MONOS 테마이다.(http://jekyllthemes.org/themes/monos/)
+내가 사용한 테마는 MONOS 테마이다.(<a href="http://jekyllthemes.org/themes/monos/">http://jekyllthemes.org/themes/monos/</a>)
 
 [DEMO]를 클릭해 전체 디자인 확인이 가능하다. 
 
@@ -40,7 +40,7 @@ category: update
 - 4. _confjg.yml 파일 환경 설정
 - 5. title, email, description, github_username 수정 후 Commit
 
-sieunlee97.github.io 주소 입력 후 확인
+<a href="sieunlee97.github.io">sieunlee97.github.io</a> 주소 입력 후 확인
 
 단, 변경 내용이 GitHub Pages에 적용되려면 시간이 필요하다. 
 
