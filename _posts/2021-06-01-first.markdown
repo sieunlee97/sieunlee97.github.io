@@ -32,13 +32,13 @@ category: update
 > 테마 디자인을 바꾸는 등 수정할 파일 많을 때 적합
 
 나의 경우, 테마를 그대로 사용하고 포스트만 할 것이기 때문에 1번 방법을 사용했다.
-- 1. [HOMEPAGE]를 클릭해 깃허브로 이동한다.
-- 2. 테마 소스 저장소를 나의 저장소로 포크한다.
-- 3. 복제된 저장소의 이름을 변경한다. 
-- > GitHub Pages로 사용하려면 저장소 이름을 .github.io 형식으로 바꿔야 한다.
-- > settings -> Repository name(sieunlee97.github.io) -> Rename
-- 4. _confjg.yml 파일 환경 설정
-- 5. title, email, description, github_username 수정 후 Commit
+- [HOMEPAGE]를 클릭해 깃허브로 이동한다.
+- 테마 소스 저장소를 나의 저장소로 포크한다.
+- 복제된 저장소의 이름을 변경한다. 
+- - GitHub Pages로 사용하려면 저장소 이름을 .github.io 형식으로 바꿔야 한다.
+- - settings -> Repository name(sieunlee97.github.io) -> Rename
+- _confjg.yml 파일 환경 설정
+- title, email, description, github_username 수정 후 Commit
 
 <a href="sieunlee97.github.io">sieunlee97.github.io</a> 주소 입력 후 확인
 
