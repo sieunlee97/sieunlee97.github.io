@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Try to use Git/ Github
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: sieunlee97
+github_username: 이시은
 highlighter: rouge
 svg:
   optimize: true
