@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SIEUNLEE97_DEV
+title: SIEUNLE_DEV
 email: tldms0137@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Try to use Git/ Github
+  sieun Lee | Blog
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 이시은
