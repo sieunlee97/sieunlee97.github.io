@@ -4,5 +4,46 @@ title: 첫번째 포스트
 date: 2021-06-01 17:03:23 +0900
 category: update
 ---
-첫번째 포스트
-[깃허브에 개인 블로그 만들기]
+
+# [깃허브에 개인 블로그 만들기]
+
+## GitHub Pages 기능 사용하기
+
+1. HTML, CSS,  Javascript 등 홈페이지 파일 있는 경우
+2. 깃허브에서 지원하는 Jekyll Themes 가져다가 사용하는 경우
+
+나의 경우는 2번 방법을 사용했다.
+
+### Jekyll Themes 알아보고 선택하기 (http://jekyllthemes.org/)
+
+내가 사용한 테마는 MONOS 테마이다.(http://jekyllthemes.org/themes/monos/)
+
+[DEMO]를 클릭해 전체 디자인 확인이 가능하다. 
+
+[HOMEPAGE]를 클릭하면 깃허브로 이동한다.
+
+[DOWNLOAD]를 클릭하면 소스 파일을 다운받을 수 있다.
+
+
+### Jekyll Themes 이용하는 방법
+1. 테마 소스를 그대로 포크해서 사용(자신의 깃허브 저장소에 소스 복제)
+> 테마 그대로 사용하면서 블로그 포스트만 작성할 때 적합
+2. 소스를 사용자 컴퓨터로 내려받아 사용
+> 테마 디자인을 바꾸는 등 수정할 파일 많을 때 적합
+
+나의 경우, 테마를 그대로 사용하고 포스트만 할 것이기 때문에 1번 방법을 사용했다.
+- 1. [HOMEPAGE]를 클릭해 깃허브로 이동한다.
+- 2. 테마 소스 저장소를 나의 저장소로 포크한다.
+- 3. 복제된 저장소의 이름을 변경한다. 
+- > GitHub Pages로 사용하려면 저장소 이름을 .github.io 형식으로 바꿔야 한다.
+- > settings -> Repository name(sieunlee97.github.io) -> Rename
+- 4. _confjg.yml 파일 환경 설정
+- 5. title, email, description, github_username 수정 후 Commit
+
+sieunlee97.github.io 주소 입력 후 확인
+
+단, 변경 내용이 GitHub Pages에 적용되려면 시간이 필요하다. 
+
+
+
+> 참고 : 깃&깃허브 입문 - 이고잉
