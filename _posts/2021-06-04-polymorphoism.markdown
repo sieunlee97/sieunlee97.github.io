@@ -14,8 +14,8 @@ category: Spring
 ![image](https://user-images.githubusercontent.com/63999784/120777347-26989c00-c560-11eb-94d3-11fee5bf08c0.png)
 ![image](https://user-images.githubusercontent.com/63999784/120777435-3dd78980-c560-11eb-81a8-518a352f2220.png)
 
-위와 같은 방식으로 하면, SamsungTV와 LgTV 클래스는 같은 기능을 수행하는 메소드가 있지만, 메소드 이름이 서로 다르다.<br>
-이 두 TV클래스를 번갈아 사용하는 TVUser 프로그램을 구현하면, 아래와 같다.
+위와 같은 방식으로 하면, SamsungTV와 LgTV 클래스는 같은 기능을 수행하는 메소드가 있지만, 메소드명이 서로 다르다.<br>
+이 두 TV클래스를 번갈아 사용하는 TVUser 프로그램을 구현하면, 아래와 같다.<br><br>
 
 ![image](https://user-images.githubusercontent.com/63999784/120777647-79725380-c560-11eb-9736-106400d73077.png)
 
