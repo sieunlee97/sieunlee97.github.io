@@ -2,7 +2,7 @@
 layout: post
 title: 자료구조
 date: 2021-06-15 16:40:23 +0900
-category: Data Structure
+category: Data_Structure
 ---
 
 # 컴퓨터 자료형
