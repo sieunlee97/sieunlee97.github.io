@@ -6,7 +6,7 @@ permalink: /about/
 
 ## > Introduce
 Lee Sieun / 97.01.27 / tldms0137@naver.com <br/> 
-github : <a href="github.com/sieunlee97">github.com/sieunlee97</a>
+github : <a href="github.com/sieunlee97" target="_blank">github.com/sieunlee97</a>
 
 ## > Tech Stack
 - OS : Windows
@@ -29,7 +29,7 @@ github : <a href="github.com/sieunlee97">github.com/sieunlee97</a>
 - 2020.11.30 ~ 2021.02.01 (2개월)
 - 인원 : 1명 (개인 프로젝트)
 - 산출물 : 아키텍처 구조도, 사용 매뉴얼
-- url : <a href="leesieun.herokuapp.com">leesieun.herokuapp.com</a>
+- url : <a href="leesieun.herokuapp.com" target="_blank">leesieun.herokuapp.com</a>
 
 **사용기술**
 - OS : Windows
