@@ -1,6 +1,6 @@
 ---
 layout: post
-title: **JSP에서 AJAX와 JSON 활용** - PreparedStatement
+title: JSP에서 AJAX와 JSON 활용 - PreparedStatement
 date: 2021-07-05 17:03:23 +0900
 category: AJAX
 ---
