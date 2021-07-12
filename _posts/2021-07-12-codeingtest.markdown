@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 백준 - step3. for문
-date: 2021-07-06 14:03:23 +0900
+date: 2021-07-12 16:03:23 +0900
 category: Coding_Test
 ---
 선택언어 java 11
