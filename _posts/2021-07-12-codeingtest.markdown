@@ -496,9 +496,9 @@ public class Main {
 	    
 	    for(int i=0; i<n; i++){
 	        int value = Integer.parseInt(st.nextToken());
-            if(value<x){
-                bw.write(value+" ");
-            }
+		    if(value<x){
+			bw.write(value+" ");
+		    }
 	    }
         
         br.close();
