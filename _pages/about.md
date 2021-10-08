@@ -11,7 +11,7 @@ toc: true
 
 ## Profile
 <figure>
- <p align="center"><img width="50%" height="50%" src="https://user-images.githubusercontent.com/63999784/136558892-3649e8d8-4bc9-43d7-a03b-086d6c94208e.png"></p>
+ <p align="center"><img width="300px" height="350px" src="https://user-images.githubusercontent.com/63999784/136558892-3649e8d8-4bc9-43d7-a03b-086d6c94208e.png"></p>
 </figure>
 
 Name : **Lee Sieun** <br/> 
@@ -50,7 +50,7 @@ github : <a href="http://github.com/sieunlee97" target="_blank">github.com/sieun
 
 ---
 
-### 2. BodyFit : 다이어트 관리 프로그램**
+### 2. BodyFit : 다이어트 관리 프로그램
 <a href="http://github.com/sieunlee97/bodyfit_team" target="_blank">스프링부트를 이용한 다이어트 관리 프로그램</a>
 
 #### :high_brightness: 개요
