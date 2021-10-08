@@ -11,7 +11,7 @@ toc: true
 
 ## Profile
 <figure>
- <p align="center"><img src="https://user-images.githubusercontent.com/63999784/136558892-3649e8d8-4bc9-43d7-a03b-086d6c94208e.png"></p>
+ <p align="center"><img width="50%" height="50%" src="https://user-images.githubusercontent.com/63999784/136558892-3649e8d8-4bc9-43d7-a03b-086d6c94208e.png"></p>
 </figure>
 
 Name : **Lee Sieun** <br/> 
@@ -28,7 +28,7 @@ github : <a href="http://github.com/sieunlee97" target="_blank">github.com/sieun
 - IDE : Eclipse, STS4
 
 
-## > Project
+## Project
 ### 1. 회원 및 게시물 관리 웹사이트
 <a href="http://github.com/sieunlee97/leesieun" target="_blank">스프링을 이용한 회원관리와 게시판 관리 사이트 제작</a>
 
@@ -38,12 +38,12 @@ github : <a href="http://github.com/sieunlee97" target="_blank">github.com/sieun
 **산출물** : 사용매뉴얼, 아키텍처 구조도<br>
 **URL**: <a href="https://leesieun.herokuapp.com">https://leesieun.herokuapp.com</a>
 
-#### <개발환경>
+#### 개발환경
 **OS** : Windows <br>
 **IDE** : Eclipse 2020-06 <br>
 **DB Tool** : Workbench, Sql-developer <br>
 
-#### <사용기술>
+#### 사용기술
 **Front-end Language** : HTML5, CSS, Bootstrap5, Thymeleaf, JavaScript <br>
 **Back-end Language** : Java, Spring+maven<br>
 **Database** : MyBatis, MySQL(MariaDB), Oracle <br>
@@ -58,12 +58,12 @@ github : <a href="http://github.com/sieunlee97" target="_blank">github.com/sieun
 **인원** : 1명 <br>
 **산출물** : [기능명세서](https://docs.google.com/spreadsheets/d/1L-KKWbsPoE57nKr2RHSAJG1CAai7fB-dlXGowB7tyao/edit?usp=sharing), [화면설계서](https://drive.google.com/file/d/1Xznkdiz6SSP7EBszNOcNaMHtefeCOrYQ/view?usp=sharing), [테이블설계서](https://www.erdcloud.com/d/2x4h8egc5tteHRYzA) <br>
 
-#### <개발환경>
+#### 개발환경
 **OS** : Windows <br>
 **IDE** : STS4 <br>
 **DB Tool** : Workbench <br>
 
-#### <사용기술>
+#### 사용기술
 **Front-end Language** : HTML5, CSS, JavaScript <br>
 **Back-end Language** : Java, Spring Boot+gradle <br>
 **Database** : MyBatis, MySQL <br>
