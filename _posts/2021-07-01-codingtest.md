@@ -1,5 +1,5 @@
 ---
-title: “백준 - step1. 입출력과 사칙연산”
+title: 백준 - step1. 입출력과 사칙연산
 categories:
 - Java
 last_modified_at: 2021-07-01T14:00:00+09:00
