@@ -5,11 +5,12 @@ categories:
 last_modified_at: 2021-07-01T14:00:00+09:00
 toc: true
 ---
-선택언어 java 11
+선택언어 java 11 {: .notice--info}
 
 ## 10171번. 고양이
 ### :label: 문제
 고양이를 출력한다.
+{: .notice--info}
 ```
 \    /\
  )  ( ')
@@ -42,6 +43,7 @@ public class Main {
 ## 10172번. 개
 ### :label: 문제 
 개를 출력한다.
+{: .notice--info}
 ```
 |\_/|
 |q p|   /}
@@ -69,6 +71,7 @@ public class Main {
 ## 1000번. A+B
 ### :label: 문제 
 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+{: .notice--info}
 
 **> 입력** 
 ```
