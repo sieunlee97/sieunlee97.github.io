@@ -20,7 +20,7 @@ DTO에서 멤버 변수를 DB와 이름이 같게, 스네이크형식으로 작�
 **자바에서 객체의 멤버 변수** 이름은 카멜 형식으로 **boardName** 처럼 작성한다.
 
 그리고 쿼리의 결과 컬럼과 DTO클래스의 멤버변수가 자동으로 매핑되도록 
-application.properties에 아래의 설정을 추가해준다.
+**application.properties**에 아래의 설정을 추가해준다.
 
 ```
 #MyBatis
