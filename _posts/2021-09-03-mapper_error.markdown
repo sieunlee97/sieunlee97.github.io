@@ -8,9 +8,9 @@ toc: true
 
 ## XML fragments parsed from previous mappers does not contain value for ~
 
-```
+
 XML fragments parsed from previous mappers does not contain value for commonMapper.search java.lang.IllegalArgumentException: XML fragments parsed from previous mappers does not contain value for commonMapper.search
-```
+{: .notice--danger}
 
 boardMapper.xml 파일에 commonMapper.xml 파일에 있는 쿼리를 include하는 과정에서 에러가 발생했다.
 
