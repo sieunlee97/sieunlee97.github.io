@@ -8,7 +8,7 @@ toc: true
 
 ## Postgresql 서버 접속 오류
 
-postgresql을 설치하는데에도 애를 먹었는데, 설치 후에 서버 접속이 안되는 오류에 부딪혔다.
+postgresql을 설치하는데에도 애를 먹었는데, 설치 후에 서버 접속이 안되는 오류에 부딪혔다. <br>
 pgAdmin4.exe를 실행 후, 페이지에 접속하여   PostgreSQL 13 서버 접속 > 비밀번호 입력 후 확인했더니, 아래와 같은 오류가 나온다.
 
 could not connect to server: connection refused (0x0000274d/10061) is the server running on host "localhost" (::1) and accepting tcp/ip connections on port 5432? could not connect to server: connection refused (0x0000274d/10061) is the server running on host "localhost" (127.0.0.1) and accepting tcp/ip connections on port 5432?
