@@ -8,13 +8,15 @@ toc: true
 
 ## 완주하지 못한 선수
 ### :label: 문제
-<div>
-수많은 마라톤 선수들이 마라톤에 참여하였습니다. 단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다. <br>
-마라톤에 참여한 선수들의 이름이 담긴 배열 participant와 완주한 선수들의 이름이 담긴 배열 completion이 주어질 때, 완주하지 못한 선수의 이름을 return 하도록 solution 함수를 작성해주세요.
-</div>
-{: .notice--info}
+<figure>
+<img src="https://user-images.githubusercontent.com/63999784/140883980-120c1892-512e-4aff-8d75-1888559da675.png">
+</figure>
+<figure>
+<img src="https://user-images.githubusercontent.com/63999784/140884093-85723708-5776-47cb-87a9-c2a6dd22692a.png">
+</figure>
 
-  
+### :bookmark: 제출
+
 ```java
 import java.util.*;
 class Solution {
