@@ -7,11 +7,11 @@ toc: true
 ---
 
 ## Map의 값을 전체 출력하기 위한 방법
-1. [entrySet()](#entrySet()) : Key, Value값 모두 필요할 때
-2. [keySet()](#keySet()) : Key값만 필요할 때
-3. [Iterator()](#Iterator)
+1. [entrySet()](#1.-entrySet()) : Key, Value값 모두 필요할 때
+2. [keySet()](#2.-keySet()) : Key값만 필요할 때
+3. [Iterator()](#3.-Iterator)
 
-## entrySet()
+## 1. entrySet()
 ```java
 Map<Integer, String> map = new HashMap<Integer, String>();
 map.put(1, "value1");
@@ -24,7 +24,7 @@ for(Map.Entry<Integer, String> entry : map.entrySet()) {
 ```
 
 
-## keySet()
+## 2. keySet()
 ```java
 Map<Integer, String> map = new HashMap<Integer, String>();
 map.put(1, "value1");
@@ -37,7 +37,7 @@ for(Integer key : map.keySet()) {
 }
 ```
 
-## Iterator
+## 3. Iterator
 Iterator 인터페이스를 사용할 수 없는 컬렉션인 Map에서 Iterator 인터페이스를 사용하기 위해서는 Map에 entrySet(), keySet() 메소드를 사용하여 Set 객체를 반환받은 후 Iterator 인터페이스를 사용하면 된다.
 
 ### entrySet().iterator()
