@@ -84,4 +84,3 @@ A, B 두가지 key가 있다. A와 B를 hash function으로 해시값을 얻었�
 ## Java에서 사용하는 Hash
 HashTable이란 jdk 1.0부터 있던 java의 API이고, HashMap은 java2에서 처음 선보인 Java Collection Framework에 속한 API이다. <br>
 HashTable 또한 Map 인터페이스를 구현하고 있기 때문에 HashMap과 HashTable이 제공하는 기능은 같다.
-
