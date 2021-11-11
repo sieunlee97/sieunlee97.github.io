@@ -1,0 +1,72 @@
+---
+title: Map 전체 출력 (entrySet, keySet, Iterator)
+categories:
+- Java
+last_modified_at: 2021-11-09T14:00:00+09:00
+toc: true
+---
+
+## Map의 값을 전체 출력하기 위한 방법
+1. [entrySet()](#entrySet()) : Key, Value값 모두 필요할 때
+2. [keySet()](#keySet()) : Key값만 필요할 때
+3. [Iterator()](#Iterator)
+
+## entrySet()
+```java
+Map<Integer, String> map = new HashMap<Integer, String>();
+map.put(1, "value1");
+map.put(2, "value2");
+map.put(3, "value3");
+
+for(Map.Entry<Integer, String> entry : map.entrySet()) {
+  System.out.println("key : "+entry.getKey()+ ", value : "+entry.getValue());
+}
+```
+
+
+## keySet()
+```java
+Map<Integer, String> map = new HashMap<Integer, String>();
+map.put(1, "value1");
+map.put(2, "value2");
+map.put(3, "value3");
+
+for(Integer key : map.keySet()) {
+  String value = map.get(key);
+  System.out.println("key : "+key+ ", value : "+value);
+}
+```
+
+## Iterator
+Iterator 인터페이스를 사용할 수 없는 컬렉션인 Map에서 Iterator 인터페이스를 사용하기 위해서는 Map에 entrySet(), keySet() 메소드를 사용하여 Set 객체를 반환받은 후 Iterator 인터페이스를 사용하면 된다.
+
+### entrySet().iterator()
+```java
+Map<Integer, String> map = new HashMap<Integer, String>();
+map.put(1, "value1");
+map.put(2, "value2");
+map.put(3, "value3");
+
+Iterator<Map.Entry<Integer,String>> itr = map.entrySet().iterator();
+while(itr.hasNext()){
+  Map.Entry<Integer,String> entry = (Map.Entry<String, String>) itr.next();
+  String key = entry.getKey();
+  String value = entry.getValue();
+  System.out.println("key : "+key+ ", value : "+value);
+}
+```
+
+### keySet().iterator()
+```java
+Map<Integer, String> map = new HashMap<Integer, String>();
+map.put(1, "value1");
+map.put(2, "value2");
+map.put(3, "value3");
+
+Iterator<Integer> itr = map.keySet().iterator();
+while(itr.hasNext()){
+  String key = itr.next();
+  String value = entry.get(key);
+  System.out.println("key : "+key+ ", value : "+value);
+}
+```
