@@ -7,9 +7,9 @@ toc: true
 ---
 
 ## Map의 값을 전체 출력하기 위한 방법
-1. [entrySet()](#1.-entrySet()) : Key, Value값 모두 필요할 때
-2. [keySet()](#2.-keySet()) : Key값만 필요할 때
-3. [Iterator()](#3.-Iterator)
+1. [entrySet()](#1-entrySet()) : Key, Value값 모두 필요할 때
+2. [keySet()](#2-keySet()) : Key값만 필요할 때
+3. [Iterator](#3-Iterator)
 
 ## 1. entrySet()
 ```java
