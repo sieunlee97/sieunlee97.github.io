@@ -24,21 +24,13 @@ class Solution {
         String answer = "";
         HashMap<String, Integer> map = new HashMap<>();
         for(String player:participant){
-            map.put(player, map.getOrDefault(player,0)+1);
-            // leo : 1
-            // kiki : 1
-            // eden : 1
         }
         for(String player:completion){
             map.put(player, map.get(player)-1);
-            // leo:1
-            // kiki:0
-            // eden:0
         }
-        Iterator<Map.Entry<String, Integer>> iter 
-            = map.entrySet().iterator();
-        while(iter.hasNext()){
-            Map.Entry<String,Integer> entry = iter.next();
+        Iterator<Map.Entry<String, Integer>> itr = map.entrySet().iterator();
+        while(itr.hasNext()){
+            Map.Entry<String,Integer> entry = itr.next();
             if(entry.getValue() != 0){
                 answer = entry.getKey();
                 break;
@@ -48,3 +40,27 @@ class Solution {
     }
 }
 ```
+
+---
+
+**getOrDefault** <br>
+: 찾는 키가 존재하면 해당 키의 값을 반환하고, 없으면 기본값을 반환함 <br>
+**map.put(Key, Value)** <br>
+: map.put(player, map.getOrDefault(player, 0)+1) <br>
+-> map.put(키(=player), (해당 키(=player)의 값을 반환하고 없다면 0)+1)  <br>
+
+```java
+import java.util.*;
+ 
+public class Main {
+    public static void main(String[] args) {
+        String[] people = {"Mike", "Anna", "Mike", "Harry"};
+        Map<String, Integer> map = new HashMap<>();
+        for(String name : people) {
+            map.put(name, map.getOrDefault(name, 0) + 1);
+        }
+        System.out.println(map); //{Anna=1, Mike=2, Harry=1}
+    }
+}
+```
+-> 중복된 값인 'Mike'는 찾고자 하는 키가 존재하므로 1을 반환한 후 +1을 해서 2가 된다.
