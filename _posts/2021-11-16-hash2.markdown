@@ -1,5 +1,5 @@
 ---
-title: 프로그래머스 - 해시2 (푸는 중)
+title: 프로그래머스 - 해시2
 categories:
 - Java
 last_modified_at: 2021-11-16T14:00:00+09:00
