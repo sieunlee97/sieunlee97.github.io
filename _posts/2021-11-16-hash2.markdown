@@ -27,7 +27,7 @@ class Solution {
         for(int i=0; i<phone_book.length; i++){
             map.put(phone_book[i], i);
         }
-        for(int i=0 ; i<map.size(); i++){
+        for(int i=0 ; i<phone_book.length; i++){
             for(int j=0; j<phone_book[i].length(); j++){
                 if(map.containsKey(phone_book[i].substring(0,j))){ return false; }      
             }
@@ -36,4 +36,25 @@ class Solution {
     }
 }
 ```
+---
 
+### 해설
+**1. HashMap 생성** <br>
+HashMap<String, Integer>로 HashMap을 생성한다. <br>
+Key에 전화번호를 집어넣고 Key를 기준으로 전화번호 포함 여부를 확인한다. <br>
+Value는 의미가 없다.<br>
+
+**2. Hashing 하기** <br>
+반복문으로 phone_book의 번호를 HashMap에 추가한다. <br>
+
+**3. 전화번호의 접두어가 HashMap에 존재하는지 확인하기** <br>
+**HashMap.containsKey(String)**
+- String이라는 Key가 HashMap에 존재하는지 확인하는 함수
+- String 부분에 **phone_book[i].substring(0,j)** 을 넣어 접두어가 존재하는지 확인한다.
+<br>
+
+**phone_book[i].substring(0,j)** <br>
+phone_book[0]이 "123"일 때
+- substring(0,0) : ""
+- substring(0,1) : "1"
+- substring(0,2) : "12"
